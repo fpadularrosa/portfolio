@@ -43,7 +43,7 @@ const Contact = () => {
         <>
             <h3>Charlemos</h3>
             <div id="div-form">
-                <form onSubmit={e => handleSubmit(e)} method='POST' id="form-contact" data-netlify='true'>
+                <form onSubmit={e => handleSubmit(e)} method='POST' data-netlify='true'>
                     <Input value={values.name} onChange={handleChange} name='name' placeholder='Tu nombre'/>
                     <Input value={values.email} onChange={handleChange} name='email' placeholder='Tu email'/>
                     <TextArea
