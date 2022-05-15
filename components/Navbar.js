@@ -9,7 +9,7 @@ const Navbar = () => {
                 <div className='lg:mr-14 xl:pl-[94px] sm:pl-6 md:mr-6 md:pl-0'>
                     <Link href='/'>
                         <a>
-                        <div className='hover:cursor-pointer hover:blur-[1px]'>
+                        <div className='h-[75px] hover:cursor-pointer hover:blur-[1px]'>
                             <Image src={iconBar} width='75' heigth='75' alt='icon'/>
                         </div>
                         </a>

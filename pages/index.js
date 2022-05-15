@@ -17,7 +17,7 @@ export default function Home() {
         <div className="xl:mx-32 xl:pl-7 sm:my-28 sm:mx-0 md:mx-0 md:mb-52 lg:mb-48 md:mt-36 lg:mt-24 lg:mr-2 md:mr-0" id="container-home">
             <div className='xl:text-left xl:justify-around md:pl-0 md:grid lg:pl-0 md:m-0 xl:flex lg:justify-around lg:flex sm:grid sm:justify-items-center'>
                 <div className="grid xl:pt-36 xl:ml-7 lg:pt-28" id="text-home">
-                    <div data-aos='fade-down' data-aos-duration='500' data-aos-once='true' className="mr-0 overflow-hidden sm:ml-6 lg:mr-8" id="container-text">
+                    <div className="mr-0 overflow-hidden sm:ml-6 lg:mr-8" id="container-text">
                         <h1 className='xl:text-left lg:text-5xl sm:text-4xl lg:max-w-lg xl:text-6xl pb-7 sm:pb-5 sm:max-w-[630px] xl:max-w-2xl xl:leading-tight md:text-6xl md:max-w-7xl'>
                         Hola, soy Franco.<br/>
                         Ayudaré a su equipo a ganar clientes usando el diseño y soluciones éficaces.
@@ -35,7 +35,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div data-aos='fade-up-right' data-aos-once='true' className="sm:mt-9 md:ml-[240px] xl:ml-10 lg:ml-0 md:mt-20 xl:mr-0 sm:pr-10 lg:mr-[-20px] lg:max-w-[560px] sm:max-w-sm lg:h-2/4 lg:mt-12 xl:mt-8 xl:max-w-[650px] xl:h-[105vh] md:max-w-lg md:h-screen sm:m-auto" id="image-homepage">
+                <div className="sm:mt-9 md:ml-[240px] xl:ml-10 lg:ml-0 md:mt-20 xl:mr-0 sm:pr-10 lg:mr-[-20px] lg:max-w-[560px] sm:max-w-sm md:max-w-[32rem] lg:h-2/4 lg:mt-12 xl:mt-8 xl:max-w-[650px] xl:h-[110vh] md:h-[650px] sm:m-auto" id="image-homepage">
                     <Image src={imgHome} width='770' heigth='1000' alt="programmation"/>
                 </div>
             </div>
