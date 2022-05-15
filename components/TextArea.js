@@ -1,9 +1,7 @@
-
 const TextArea = ({ name, placeholder,value, onChange, ...props}) => {
     return(
         <div>
             <textarea 
-            className='w-1/4 h-15' 
             autoComplete='off' 
             type='text' 
             rows={5}

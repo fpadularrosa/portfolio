@@ -1,50 +1,62 @@
+import MyImage from './MyImage';
+import iconBar from '../pages/img/FP.png';
 import Link from 'next/link';
-
 const Navbar = () => {
+    
     return(
-        <>
-        <nav className="bg-gray-800 opacity-100 py-4">
-        <div className="max-w-7xl mx-auto px-2 tablet:px-6 laptop:px-8">
-            <div className="relative flex items-center justify-end h-16">
-            <div className="flex items-center justify-end tablet:items-stretch tablet:justify-start">
-
-                <div className="flex items-center content-start">
-                    <img className="block laptop:hidden h-8 w-auto" src="../fp.jpg" alt="Workflow"/>
-                    <img className="w-full" src="../fp.jpg" alt="Workflow"/>
+        <nav className="fixed top-0 left-0 z-10 w-full py-4 bg-gradient-to-b from-white to-transparent">
+            <div className="flex px-0 text-gray-700 lg:pl-0 lg:justify-between md:pl-0 md:mx-5 lg:mx-4 xl:mx-10 xl:pl-14 xl:m-auto xl:justify-between md:justify-between sm:justify-between">
+                <div className='lg:mr-14 xl:pl-[94px] sm:pl-6 md:mr-6 md:pl-0'>
+                    <Link href='/'>
+                        <a>
+                        <div className='hover:cursor-pointer hover:blur-[1px]'>
+                            <MyImage src={iconBar} width='75' heigth='75' alt='icon'/>
+                        </div>
+                        </a>
+                    </Link>
                 </div>
-
-                <div className="hidden tablet:block tablet:ml-6">
-                    <div className="flex space-x-4">
-                        <Link href='/#expertise'>
-                            <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-tablet font-medium">Experiencia</a>
-                        </Link>
-
-                        <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-tablet font-medium" aria-current="page">Portfolio</a>
-
-                        <Link href='/about-franco'>
-                            <a className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-tablet font-medium">Sobre mi</a>
-                        </Link>
-                        
+                <ul className="items-center hidden text-base cursor-pointer lg:flex lg:pr-0 pr-52 xl:pr-40">
+                    <a href='/#expertise' className="duration-500 hover:text-neutral-300">
+                            <li className="inline-block py-1 mx-4 text-xl text-black transition ease-in border-b-2 rounded-md duration-400 border-neutral-300 hover:border-b-2 hover:border-black hover:text-neutral-300">Experiencia</li>
+                        </a>
+                    <a href='/#portfolio' className="duration-500 hover:text-neutral-300">
+                            <li className="inline-block py-1 mx-4 text-xl text-black transition ease-in border-b-2 rounded-md duration-400 border-neutral-300 hover:border-b-2 hover:border-black hover:text-neutral-300">Portfolio</li>
+                        </a>
+                    <a href='/about-franco' className="duration-500 hover:text-neutral-300">
+                            <li className="inline-block py-1 mx-4 text-xl text-black transition ease-in border-b-2 rounded-md duration-400 border-neutral-300 hover:border-b-2 hover:border-black hover:text-neutral-300">Sobre mi</li>
+                        </a>
+                        <div>
+                        <a href='/contact'>
+                            <div className="px-8 py-3 ml-5 text-lg text-white transition duration-200 ease-in bg-black border lg:ml-5 lg:mr-3 hover:cursor-pointer hover:border-black hover:text-black hover:bg-neutral-100 h-14">
+                                Hablemos
+                            </div>
+                        </a>
                     </div>
-                </div>
+                </ul>
 
+                <button className="block py-3 rounded md:mx-0 sm:mr-8 md:ml-10 md:px-0 lg:hidden focus:outline-none group"> 
+                    <div className="h-1 mb-1 bg-gray-600 w-7"></div>
+                    <div className="h-1 mb-1 bg-gray-600 w-7"></div>
+                    <div className="h-1 bg-gray-600 w-7"></div>
+                    <div className="absolute top-0 w-8/12 h-screen transition-all duration-300 bg-black border opacity-0 -right-full group-focus:right-0 group-focus:opacity-100">
+                        <ul className="flex flex-col items-center w-full pt-10 text-base cursor-pointer">
+                            <a href='/#expertise'><li className="w-full px-6 py-4 text-xl text-white transition duration-500 ease-in rounded-md hover:text-neutral-400 duration-400 hover:border-b-2 hover:border-gray-500">Experiencia</li></a>
+                            <a href='/#portfolio'><li className="w-full px-6 py-4 text-xl text-white transition duration-500 ease-in rounded-md hover:text-neutral-400 duration-400 hover:border-b-2 hover:border-gray-500">Portfolio</li></a>
+                            <a href='/about-franco'><li className="w-full px-6 py-4 text-xl text-white transition duration-500 ease-in rounded-md hover:text-neutral-400 duration-400 hover:border-b-2 hover:border-gray-500">Sobre mi</li></a>
+                            <div>
+                                <a href='/contact'>
+                                    <div className="px-8 py-4 mx-4 text-white duration-500 bg-black border border-white hover:border-black hover:border hover:bg-neutral-300 h-14">
+                                        Hablemos
+                                    </div>
+                                </a>
+                            </div>
+                        </ul>
+                    </div>
+                </button>
             </div>
-            </div>
-        </div>
-
-        <div className="tablet:hidden" id="mobile-menu">
-
-            <div className="px-2 pt-2 pb-3 space-y-1">
-            <a href="#" className="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Profile</a>
-            <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Skills</a>
-            <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Projects</a>
-            <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Calendar</a>
-            </div>
-
-        </div>
         </nav>
-        </>
     )
+
 }
 
 export default Navbar;

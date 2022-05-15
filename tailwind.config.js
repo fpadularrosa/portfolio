@@ -15,7 +15,13 @@ module.exports = {
         'desktop': '1280px',
         // => @media (min-width: 1280px) { ... }
       },
+      fontFamily: {
+        satoshi: 'Satoshi, sans-serif'
+      },
     },
+  },
+  variants: {
+    borderWidth: ['responsive', 'hover', 'focus'],
   },
   plugins: [],
 }
