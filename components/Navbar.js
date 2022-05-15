@@ -1,4 +1,4 @@
-import Myimage from './Myimage';
+import Image from 'next/image';
 import iconBar from '../utils/FP.png';
 import Link from 'next/link';
 const Navbar = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
                     <Link href='/'>
                         <a>
                         <div className='hover:cursor-pointer hover:blur-[1px]'>
-                            <Myimage src={iconBar} width='75' heigth='75' alt='icon'/>
+                            <Image src={iconBar} width='75' heigth='75' alt='icon'/>
                         </div>
                         </a>
                     </Link>

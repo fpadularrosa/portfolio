@@ -1,6 +1,6 @@
 import React from "react";
 import henryFood from '../utils/henry-food.jpg';
-import Myimage from '../components/Myimage';
+import Image from 'next/image';
 import Project from '../components/Projectinmind';
 import Link from 'next/link';
 import Head from 'next/head'
@@ -31,7 +31,7 @@ class Henryfood extends React.Component {
                                     <div className='pb-0 lg:mt-12 md:pt-10 lg:ml-[7rem] sm:pt-4 xl:ml-[0rem] lg:pt-10 md:grid xl:mb-10 md:justify-items-center lg:grid lg:justify-items-start sm:grid sm:justify-items-center xl:grid xl:place-items-center'>
                                         <div className="w-[94%] md:w-[87%] sm:w-[84%]">
                                             <div className='shadow-2xl xl:mt-16 sm:h-[220px] md:w-full lg:w-full sm:w-full md:h-[300px] xl:w-full' id='project1'>
-                                            <Myimage src={henryFood} width='1366' height='800' />
+                                            <Image src={henryFood} width='1366' height='800' />
                                             </div>
                                         </div>
                                     </div>

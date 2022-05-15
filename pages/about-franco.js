@@ -2,7 +2,7 @@ import Link from "next/link"
 import Aboutme from "../components/Aboutme";
 import Reasons from "../components/Reasons";
 import code from '../utils/code.jpg'
-import Myimage from "../components/Myimage";
+import Image from "next/image";
 import Project from "../components/Projectinmind";
 import Head from 'next/head';
 
@@ -32,7 +32,7 @@ const About = () => {
                 </div>
                 <div>
                     <div className="md:w-[67%] md:ml-[8rem] sm:w-[55%] sm:ml-36 mb-52 ml-24 lg:mr-14 xl:mr-0 xl:ml-0 xl:w-full" id="image-about">
-                        <Myimage src={code} width='670' heigth='800'/>
+                        <Image src={code} width='670' heigth='800'/>
                     </div>
                 </div>
             </div>
