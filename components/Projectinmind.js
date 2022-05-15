@@ -1,5 +1,5 @@
 import Link from "next/link"
-const Project = () => {
+const Projectinmind = () => {
     return(
         <>
         <div className="xl:flex xl:pb-24 sm:mt-32 sm:ml-6 xl:pt-10 xl:justify-around md:mt-60 md:ml-5" id='project-in-mind'>
@@ -20,4 +20,4 @@ const Project = () => {
         </>
     )
 }
-export default Project
+export default Projectinmind;

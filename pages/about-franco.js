@@ -1,9 +1,9 @@
 import Link from "next/link"
-import Aboutme from "../components/aboutme";
-import Reasons from "../components/reasons";
-import code from './img/code.jpg'
-import MyImage from "../components/MyImage";
-import Project from "../components/projectinmind";
+import Aboutme from "../components/Aboutme";
+import Reasons from "../components/Reasons";
+import code from '../utils/code.jpg'
+import Myimage from "../components/Myimage";
+import Project from "../components/Projectinmind";
 import Head from 'next/head';
 
 const About = () => {
@@ -32,7 +32,7 @@ const About = () => {
                 </div>
                 <div>
                     <div className="md:w-[67%] md:ml-[8rem] sm:w-[55%] sm:ml-36 mb-52 ml-24 lg:mr-14 xl:mr-0 xl:ml-0 xl:w-full" id="image-about">
-                        <MyImage src={code} width='670' heigth='800'/>
+                        <Myimage src={code} width='670' heigth='800'/>
                     </div>
                 </div>
             </div>

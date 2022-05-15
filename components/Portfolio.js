@@ -1,6 +1,6 @@
-import henryFood from '../pages/img/henry-food.jpg';
-import MyImage from './MyImage';
-import electroShop from '../pages/img/electroshop.png'
+import henryFood from '../utils/henry-food.jpg';
+import Myimage from './Myimage';
+import electroShop from '../utils/electroshop.png'
 import Link from 'next/link';
 
 const Portfolio = () => {
@@ -20,7 +20,7 @@ const Portfolio = () => {
                                         <h4 className='font-medium text-white xl:mb-9 xl:mt-12 sm:mb-4 xl:text-2xl md:mt-[3rem] md:text-2xl sm:mt-3'>Proyecto Individual en Henry Bootcamp</h4>
                                         <div className='w-[90%] xl:w-[90%] sm:w-[96%]'>
                                             <div className='transition-all duration-300 transform shadow-2xl sm:h-[220px] md:w-full sm:w-full xl:w-full xl:hover:scale-110 lg:hover:scale-110' id='project1'>
-                                            <MyImage src={henryFood} width='1366' height='800' />
+                                            <Myimage src={henryFood} width='1366' height='800' />
                                             </div>
                                         </div>
                                     </div>
@@ -52,7 +52,7 @@ const Portfolio = () => {
                                         <h4 className='font-medium text-white xl:mb-9 xl:mt-12 sm:mb-4 xl:text-2xl md:mt-[3rem] md:text-2xl sm:mt-3'>Proyecto Grupal</h4>
                                         <div className='w-[90%] xl:w-[90%] sm:w-[96%]'>
                                             <div className='transition-all duration-300 transform shadow-2xl sm:h-[220px] md:w-full sm:w-full xl:w-full xl:hover:scale-110 lg:hover:scale-110' id='imgProject1'>
-                                            <MyImage src={electroShop} width='1366' height='800' />
+                                            <Myimage src={electroShop} width='1366' height='800' />
                                             </div>  
                                         </div>
                                     </div>

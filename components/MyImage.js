@@ -1,5 +1,5 @@
 import Image from 'next/image'
-const MyImage = ({src, width, heigth}) => {
+const Myimage = ({src, width, heigth}) => {
     return (
     <div>
       <Image
@@ -11,4 +11,4 @@ const MyImage = ({src, width, heigth}) => {
     </div>
   )
 }
-export default MyImage;
+export default Myimage;

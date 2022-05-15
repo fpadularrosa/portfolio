@@ -1,5 +1,5 @@
-import MyImage from './MyImage';
-import iconBar from '../pages/img/FP.png';
+import Myimage from './Myimage';
+import iconBar from '../utils/FP.png';
 import Link from 'next/link';
 const Navbar = () => {
     
@@ -10,7 +10,7 @@ const Navbar = () => {
                     <Link href='/'>
                         <a>
                         <div className='hover:cursor-pointer hover:blur-[1px]'>
-                            <MyImage src={iconBar} width='75' heigth='75' alt='icon'/>
+                            <Myimage src={iconBar} width='75' heigth='75' alt='icon'/>
                         </div>
                         </a>
                     </Link>

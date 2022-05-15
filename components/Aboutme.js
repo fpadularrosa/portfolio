@@ -1,5 +1,5 @@
-import MyImage from "./MyImage";
-import franco from '../pages/img/franco.png';
+import Myimage from "./Myimage";
+import franco from '../utils/franco.png';
 
 const Aboutme = () => {
     return(
@@ -15,7 +15,7 @@ const Aboutme = () => {
                 </div>
                 <div className="lg:mt-32 md:mt-24 sm:mt-32 xl:mt-8 xl:ml-40 lg:ml-24">
                     <div className="xl:w-[95%] sm:w-[85%] md:w-[80%] lg:w-[90%] lg:h-[70%] xl:h-[85%]">
-                        <MyImage src={franco} width='900' heigth='980' />
+                        <Myimage src={franco} width='900' heigth='980' />
                     </div>
                 </div>
             </div>

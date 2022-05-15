@@ -1,11 +1,11 @@
 import Link from "next/link";
-import MyImage from "../components/MyImage";
-import Portfolio from "../components/portfolio";
-import Expertise from "../components/expertise";
-import imgHome from './img/gafas-ordenador.jpg';
+import Myimage from "../components/Myimage";
+import Portfolio from "../components/Portfolio";
+import Expertise from "../components/Expertise";
+import imgHome from '../utils/gafas-ordenador.jpg';
 import Head from "next/head";
-import Project from '../components/projectinmind';
-import NiceMeetYou from "../components/niceMeetYou";
+import Project from '../components/Projectinmind';
+import NiceMeetYou from "../components/NiceMeetYou";
 
 export default function Home() {
   return (
@@ -36,7 +36,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div data-aos='fade-up-right' data-aos-once='true' className="sm:mt-9 md:ml-[240px] xl:ml-10 lg:ml-0 md:mt-20 xl:mr-0 sm:pr-10 lg:mr-[-20px] lg:max-w-[560px] sm:max-w-sm lg:h-2/4 lg:mt-12 xl:mt-8 xl:max-w-[650px] xl:h-[105vh] md:max-w-lg md:h-screen sm:m-auto" id="image-homepage">
-                    <MyImage src={imgHome} width='770' heigth='1000'/>
+                    <Myimage src={imgHome} width='770' heigth='1000'/>
                 </div>
             </div>
         </div>

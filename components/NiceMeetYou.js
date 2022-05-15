@@ -1,5 +1,5 @@
-import MyImage from './MyImage';
-import programmation from '../pages/img/programmation.png';
+import Myimage from './Myimage';
+import programmation from '../utils/programmation.png';
 import Link from 'next/link';
 const NiceMeetYou = () => {
     return(
@@ -18,7 +18,7 @@ const NiceMeetYou = () => {
                 </div>
             </div>
             <div className='md:ml-4 xl:ml-0 xl:mr-7 sm:ml-3 xl:w-[560px] xl:h-[420px] sm:w-[440px] sm:h-[380px]'>
-                <MyImage src={programmation} width='560' heigth='420'/>
+                <Myimage src={programmation} width='560' heigth='420'/>
             </div>
         </div>
     )

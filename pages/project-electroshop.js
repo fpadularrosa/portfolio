@@ -1,7 +1,7 @@
 import Link from "next/link";
-import MyImage from "../components/MyImage";
-import Project from "../components/projectinmind";
-import electroShop from './img/electroshop.png'
+import Myimage from "../components/Myimage";
+import Project from "../components/Projectinmind";
+import electroShop from '../utils/electroshop.png'
 import Head from 'next/head'
 const Electroshop = () => {
     return(
@@ -30,7 +30,7 @@ const Electroshop = () => {
                                     <div className='pb-0 lg:mt-12 md:pt-10 sm:pt-4 lg:pt-10 lg:ml-14 md:grid xl:mb-10 xl:ml-0 md:justify-items-center lg:grid lg:justify-items-start sm:grid sm:justify-items-center xl:grid xl:place-items-center'>
                                         <div className="w-[94%] xl:w-[90%] md:w-[87%] sm:w-[84%] lg:w-[94%]">
                                             <div className='shadow-2xl xl:mt-16 sm:h-[220px] md:w-full lg:w-full sm:w-full md:h-[333px] xl:w-full' id='project1'>
-                                            <MyImage src={electroShop} width='1366' height='800' />
+                                            <Myimage src={electroShop} width='1366' height='800' />
                                             </div>
                                         </div>
                                     </div>

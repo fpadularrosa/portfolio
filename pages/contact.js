@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Input from "../components/Input";
-import TextArea from "../components/Textarea";
+import Textarea from "../components/Textarea";
 import Head from 'next/head';
 const Contact = () => {
     const [values, setValues] = useState({
@@ -62,7 +62,7 @@ const Contact = () => {
                     onChange={handleChange} 
                     name='email' 
                     placeholder='Tu email'/>
-                    <TextArea
+                    <Textarea
                     className="w-full px-4 py-5 text-base border-b-2 border-gray-400 focus:outline-none focus:border-green-400"
                     rows='5'
                     onChange={handleChange}
