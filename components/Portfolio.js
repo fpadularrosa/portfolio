@@ -36,8 +36,10 @@ const Portfolio = () => {
                                     </div>
                                 </div>
                                 <div className='inline-block text-xl font-medium transition ease-in-out border-b-2 rounded-md sm:text-[19px] duration-400 mt-14 sm:mt-12 hover:border-b-2 hover:border-gray-500 text-neutral-900 hover:text-neutral-500' id='linkToProject1'>
-                                    <Link className='hover:cursor-pointer' href='/project-henryfood'>
-                                    <div>Ver proyecto</div>
+                                    <Link href='/project-henryfood'>
+                                        <a>
+                                        <div className='hover:cursor-pointer'>Ver proyecto</div>
+                                        </a>
                                     </Link>
                                 </div>
                             </a>
@@ -64,8 +66,10 @@ const Portfolio = () => {
                                     </div>
                                 </div>
                                 <div className='inline-block text-xl font-medium transition ease-in border-b-2 sm:text-[19px] sm:mt-12 rounded-md duration-400 xl:mt-14 md:mt-7 hover:border-b-2 hover:border-gray-500 text-neutral-900 hover:text-neutral-500' id='linkToProject1'>
-                                    <Link className='hover:cursor-pointer' href='/project-electroshop'>
-                                    <div>Ver proyecto</div>
+                                    <Link href='/project-electroshop'>
+                                        <a>
+                                        <div className='hover:cursor-pointer'>Ver proyecto</div>
+                                        </a>
                                     </Link>
                                 </div>
                             </a>

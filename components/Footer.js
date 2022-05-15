@@ -22,7 +22,7 @@ const Footer = () => {
                             <a className='xl:text-lg md:text-md ' href='mailto:fpadularrosa22@gmail.com'>fpadularrosa22@gmail.com</a>
                         <div>
                             <div className='my-0 font-semibold xl:my-1 lg:pt-9 lg:text-lg sm:py-3 md:py-3 xl:text-xl md:text-lg'>Conectar</div>
-                            <a className='xl:text-lg md:text-md ' href='https://www.linkedin.com/in/padularrosa-franco-fullstack' target='_blank'>LinkedIn</a>
+                            <a className='xl:text-lg md:text-md ' rel="noreferrer" href='https://www.linkedin.com/in/padularrosa-franco-fullstack' target='_blank'>LinkedIn</a>
                         </div>
                     </div>
             </div>

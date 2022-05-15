@@ -38,14 +38,14 @@ const Contact = () => {
             {!submitted ? 
             <div className="flex justify-between px-10 mb-32 xl:justify-evenly xl:px-0 mt-52" id="div-form">
                 <div className="" id="containerTextContact">
-                    <h3 className="text-5xl font-medium leading-[3rem] mb-4">Charlemos</h3>
-                    <p className="text-xl sm:text-lg leading-[3rem]">
+                    <h3 className="text-5xl font-medium leading-[3rem] xl:text-6xl mb-4">Charlemos</h3>
+                    <p className="text-xl xl:text-xl sm:text-lg leading-[3rem]">
                         <span className="text-neutral-500">Por email:</span> <a className="leading-[3rem] border-black border-b-[1px] hover:text-neutral-500 hover:border-neutral-500" href="mailto:fpadularrosa22@gmail.com">fpadularrosa22@gmail.com</a> <br/>
                     </p>
-                    <p className="text-xl sm:text-lg leading-[3rem] ">
-                        <span className="text-neutral-500">Por</span> <a className="leading-[3rem] border-black border-b-[1px] hover:text-neutral-500 hover:border-neutral-500" target='_blank' href="https://www.linkedin.com/in/padularrosa-franco-fullstack">LinkedIn</a> <br/>
+                    <p className="text-xl xl:text-xl sm:text-lg leading-[3rem] ">
+                        <span className="text-neutral-500">Por</span> <a className="leading-[3rem] border-black border-b-[1px] hover:text-neutral-500 hover:border-neutral-500" target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/padularrosa-franco-fullstack">LinkedIn</a> <br/>
                         <span className="text-neutral-500">Nací en Argentina, Buenos Aires</span><br/>
-                        <a className="leading-[3rem] border-black border-b-[1px] hover:text-neutral-500 hover:border-neutral-500" target='_blank' href="https://www.zeitverschiebung.net/en/abbr/14">Qué hora es acá? </a>
+                        <a className="leading-[3rem] border-black border-b-[1px] hover:text-neutral-500 hover:border-neutral-500" target='_blank' rel="noreferrer" href="https://www.zeitverschiebung.net/en/abbr/14">Qué hora es acá? </a>
                     </p>
                 </div>
                 <form className="grid w-1/3" onSubmit={e => handleSubmit(e)} action="https://formspree.io/f/xayvprej" autoComplete="nope" id='form-contact' method="POST">

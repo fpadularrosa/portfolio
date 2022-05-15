@@ -14,7 +14,7 @@ const Electroshop = () => {
                                 <span className="pt-4 text-xl md:text-xl xl:text-2xl lg:text-xl pb-9 sm:text-lg text-neutral-500">Trabajo de un mes en equipo con 6 compañeros como proyecto final en el bootcamp.</span>
                                 <div id="containerLink">
                                     <div className='inline-block mt-6 text-xl transition ease-in border-b-2 rounded-md sm:text-lg hover:cursor-pointer duration-400 hover:border-b-2 hover:border-gray-500 text-neutral-900 hover:text-neutral-500' id='linkToProject1'>
-                                        <a target='_blank' href='https://electroshop-ecommerce.vercel.app'>
+                                        <a target='_blank' rel="noreferrer" href='https://electroshop-ecommerce.vercel.app'>
                                             <div>Visitar web</div>
                                         </a>
                                     </div>
@@ -57,7 +57,7 @@ const Electroshop = () => {
                             <div id="website">
                                 <div className="mb-3 text-lg" id="title">Sitio web</div>
                                 <div className='inline-block mt-4 text-lg font-medium transition duration-300 ease-in border-b-2 rounded-md hover:border-b-2 hover:border-gray-500 text-neutral-900 hover:text-neutral-500' id='linkToProject1'>
-                                    <Link className='hover:cursor-pointer' href='https://electroshop-ecommerce.vercel.app'>
+                                    <Link className='hover:cursor-pointer' rel="noreferrer" href='https://electroshop-ecommerce.vercel.app'>
                                         <a target='_blank'>
                                         <div>Vista previa</div>
                                         </a>
