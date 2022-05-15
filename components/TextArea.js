@@ -1,4 +1,4 @@
-const Textarea = ({ name, placeholder,value, onChange, ...props}) => {
+const TextArea = ({ name, placeholder,value, onChange, ...props}) => {
     return(
         <div>
             <textarea 
@@ -15,4 +15,4 @@ const Textarea = ({ name, placeholder,value, onChange, ...props}) => {
     )
 }
 
-export default Textarea;
+export default TextArea;
