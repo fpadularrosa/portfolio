@@ -12,10 +12,7 @@ export default function Home() {
     <>
     <Head>
       <title>Franco Full Stack Web Developer</title>
-        <meta charSet="utf-8"/>
-        <meta name="description" content='Articulos sobre nutrición y salud'/>
-        <meta name="keywords" content="articulos interesantes, salud, nutrición, noticias, buscar articulos"/>
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <meta charSet="utf-8"/>
     </Head>
         <div className="xl:mx-32 xl:pl-7 sm:my-28 sm:mx-0 md:mx-0 md:mb-52 lg:mb-48 md:mt-36 lg:mt-24 lg:mr-2 md:mr-0" id="container-home">
             <div className='xl:text-left xl:justify-around md:pl-0 md:grid lg:pl-0 md:m-0 xl:flex lg:justify-around lg:flex sm:grid sm:justify-items-center'>

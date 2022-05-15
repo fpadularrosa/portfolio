@@ -58,11 +58,13 @@ const Navbar = () => {
                                 <a><li className="w-full px-6 py-4 text-xl text-white transition duration-500 ease-in rounded-md hover:text-neutral-400 duration-400 hover:border-b-2 hover:border-gray-500">Sobre mi</li></a>
                             </Link>
                             <div>
-                                <a href='/contact'>
+                                <Link href='/contact'>
+                                <a>
                                     <div className="px-8 py-4 mx-4 text-white duration-500 bg-black border border-white hover:border-black hover:border hover:bg-neutral-300 h-14">
                                         Hablemos
                                     </div>
                                 </a>
+                                </Link>
                             </div>
                         </ul>
                     </div>

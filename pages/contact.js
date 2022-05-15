@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Input from "../components/Input";
 import TextArea from "../components/Textarea";
-
+import Head from 'next/head';
 const Contact = () => {
     const [values, setValues] = useState({
         name: '',
@@ -35,6 +35,9 @@ const Contact = () => {
 
     return (
         <>
+        <Head>
+            <title>Contact Web Developer Franco</title>
+        </Head>
             {!submitted ? 
             <div className="flex justify-between px-10 mb-32 xl:justify-evenly xl:px-0 mt-52" id="div-form">
                 <div className="" id="containerTextContact">

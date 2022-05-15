@@ -1,3 +1,4 @@
+import Script from 'next/script';
 const Reasons = () => {
     return(
     <div data-aos='fade' data-aos-once='true' className="xl:ml-32 lg:grid md:grid md:justify-items-start lg:px-7 md:px-[28px] sm:px-8 xl:px-[70px] lg:pb-24" id='container-reasons'>

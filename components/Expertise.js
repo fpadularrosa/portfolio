@@ -1,7 +1,8 @@
+
 const Expertise = () => {
     return(
         <>
-            <section data-aos='fade' data-aos-once='true' id='expertise'>
+            <section id='expertise'>
                 <div className=" sm:ml-9 md:ml-6 lg:ml-0 sm:mr-16 md:mr-0 md:pr-6 md:pl-0" id='container-expertise'>
                     <div className="flex" id="title">
                         <div>

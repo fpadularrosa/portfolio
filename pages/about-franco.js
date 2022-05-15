@@ -4,12 +4,13 @@ import Reasons from "../components/reasons";
 import code from './img/code.jpg'
 import MyImage from "../components/MyImage";
 import Project from "../components/projectinmind";
-import Head from 'next/head'
+import Head from 'next/head';
+
 const About = () => {
     return(
         <>
         <Head>
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+            <title>Franco Portfolio</title>
         </Head>
             <div data-aos='fade-down' data-aos-duration='500' data-aos-once="true" className="pt-32 xl:flex md:grid md:justify-items-start lg:grid lg:justify-items-start xl:justify-evenly md:px-20 sm:pr-[24px] sm:pl-[24px] lg:px-8 xl:px-52">
                 <div className='grid content-center mr-40 leading-relaxed md:mr-0 xl:mr-10 sm:mr-0 lg:mr-0 xl:mb-52 mb-36'>

@@ -13,7 +13,8 @@ const Portfolio = () => {
                     </div>
                     <div className='' id="projects">
                         <div className='mb-20 xl:mb-32' id="container2-projects">
-                            <a href='/project-henryfood'>
+                            <Link href='/project-henryfood'>
+                            <a>
                                 <div id='firtProject' className='mb-4 sm:mr-10 xl:mr-0 xl:relative md:h-[130vh] sm:h-[76vh] lg:h-[120vh] xl:h-[100vh] xl:w-11/12 md:w-full bg-gradient-to-tr to-teal-900 via-sky-700 from-blue-300'>
                                     <div className='pb-0 md:ml-[2.5rem] md:grid xl:ml-[5rem] md:justify-items-start sm:ml-[2rem] sm:grid sm:justify-items-start xl:grid xl:place-items-start'>
                                         <h4 className='font-medium text-white xl:mb-9 xl:mt-12 sm:mb-4 xl:text-2xl md:mt-[3rem] md:text-2xl sm:mt-3'>Proyecto Individual en Henry Bootcamp</h4>
@@ -43,7 +44,9 @@ const Portfolio = () => {
                                     </Link>
                                 </div>
                             </a>
-                            <a href='/project-electroshop'>
+                            </Link>
+                            <Link href='/project-electroshop'>
+                            <a>
                                 <div id='2Project' className='mb-4 mt-20 sm:mr-10 xl:mr-0 xl:relative xl:h-[98vh] md:h-[128vh] sm:h-[76vh] xl:w-11/12 md:w-full bg-gradient-to-tr to-pink-600 via-pink-500 from-pink-300'>
                                     <div className='md:grid md:ml-[2.5rem] xl:ml-[5rem] md:justify-items-start sm:ml-[2rem] sm:grid sm:justify-items-start xl:grid xl:place-items-start'>
                                         <h4 className='font-medium text-white xl:mb-9 xl:mt-12 sm:mb-4 xl:text-2xl md:mt-[3rem] md:text-2xl sm:mt-3'>Proyecto Grupal</h4>
@@ -73,6 +76,7 @@ const Portfolio = () => {
                                     </Link>
                                 </div>
                             </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
