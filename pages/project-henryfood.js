@@ -17,16 +17,16 @@ class Henryfood extends React.Component {
                                 <span className="pt-4 text-xl md:text-xl xl:text-2xl lg:text-xl pb-9 sm:text-lg text-neutral-500">Le hice algunos ajustes, es un trabajo de 2 semanas.</span>
                                 <div id="containerLink">
                                     <div className='inline-block mt-6 text-xl transition ease-in border-b-2 rounded-md sm:text-lg hover:cursor-pointer duration-400 hover:border-b-2 hover:border-gray-500 text-neutral-900 hover:text-neutral-500' id='linkToProject1'>
-                                        <Link target='_blank' rel="noreferrer" href='https://henryfood.vercel.app'>
-                                        <a>
+                                        <Link href='https://henryfood.vercel.app'>
+                                        <a target='_blank' rel="noreferrer">
                                             <div>Visitar web</div>
                                         </a>
                                         </Link>
                                     </div>
                                 </div>
                             </div>
-                            <Link target='_blank' rel="noreferrer" href='https://henryfood.vercel.app'>
-                            <a>
+                            <Link href='https://henryfood.vercel.app'>
+                            <a target='_blank' rel="noreferrer">
                                 <div id='firtProject' className='mb-4 sm:mr-[2rem] lg:mr-[9px] md:h-[97vh] lg:h-[103vh] sm:h-[63vh] xl:h-screen lg:w-full xl:w-full md:w-full bg-gradient-to-tr to-teal-900 via-sky-700 from-blue-300'>
                                     <div className='pb-0 lg:mt-12 md:pt-10 lg:ml-[7rem] sm:pt-4 xl:ml-[0rem] lg:pt-10 md:grid xl:mb-10 md:justify-items-center lg:grid lg:justify-items-start sm:grid sm:justify-items-center xl:grid xl:place-items-center'>
                                         <div className="w-[94%] md:w-[87%] sm:w-[84%]">
@@ -64,8 +64,8 @@ class Henryfood extends React.Component {
                             <div id="website">
                                 <div className="mb-3 text-lg" id="title">Sitio web</div>
                                 <div className='inline-block mt-4 text-lg font-medium text-black transition duration-300 ease-in border-b-2 rounded-md hover:border-b-2 hover:border-gray-500 hover:text-neutral-500' id='linkToProject1'>
-                                    <Link target='_blank' rel="noreferrer" href='https://henryfood.vercel.app'>
-                                    <a>
+                                    <Link href='https://henryfood.vercel.app'>
+                                    <a target='_blank' rel="noreferrer">
                                         <div>Vista previa</div>
                                     </a>
                                     </Link>

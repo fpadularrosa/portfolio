@@ -16,16 +16,16 @@ const Electroshop = () => {
                                 <span className="pt-4 text-xl md:text-xl xl:text-2xl lg:text-xl pb-9 sm:text-lg text-neutral-500">Trabajo de un mes en equipo con 6 compañeros como proyecto final en el bootcamp.</span>
                                 <div id="containerLink">
                                     <div className='inline-block mt-6 text-xl transition ease-in border-b-2 rounded-md sm:text-lg hover:cursor-pointer duration-400 hover:border-b-2 hover:border-gray-500 text-neutral-900 hover:text-neutral-500' id='linkToProject1'>
-                                        <Link target='_blank' rel="noreferrer" href='https://electroshop-ecommerce.vercel.app'>
-                                        <a>
+                                        <Link href='https://electroshop-ecommerce.vercel.app'>
+                                        <a target='_blank' rel="noreferrer" >
                                             <div>Visitar web</div>
                                         </a>
                                         </Link>
                                     </div>
                                 </div>
                             </div>
-                            <Link target='_blank' rel="noreferrer" href='https://electroshop-ecommerce.vercel.app'>
-                            <a>
+                            <Link href='https://electroshop-ecommerce.vercel.app'>
+                            <a target='_blank' rel="noreferrer">
                                 <div id='secondProject' className='mb-4 sm:mr-[2rem] lg:mr-[9px] md:h-[97vh] sm:h-[63vh] xl:h-screen lg:w-full xl:w-full md:w-full bg-gradient-to-tr to-pink-600 via-pink-500 from-pink-300'>
                                     <div className='pb-0 lg:mt-12 md:pt-10 sm:pt-4 lg:pt-10 lg:ml-14 md:grid xl:mb-10 xl:ml-0 md:justify-items-center lg:grid lg:justify-items-start sm:grid sm:justify-items-center xl:grid xl:place-items-center'>
                                         <div className="w-[94%] xl:w-[90%] md:w-[87%] sm:w-[84%] lg:w-[94%]">
@@ -63,8 +63,8 @@ const Electroshop = () => {
                             <div id="website">
                                 <div className="mb-3 text-lg" id="title">Sitio web</div>
                                 <div className='inline-block mt-4 text-lg font-medium transition duration-300 ease-in border-b-2 rounded-md hover:border-b-2 hover:border-gray-500 text-neutral-900 hover:text-neutral-500' id='linkToProject1'>
-                                    <Link target='_blank' rel="noreferrer" href='https://electroshop-ecommerce.vercel.app'>
-                                        <a>
+                                    <Link href='https://electroshop-ecommerce.vercel.app'>
+                                        <a target='_blank' rel="noreferrer">
                                         <div className='hover:cursor-pointer'>Vista previa</div>
                                         </a>
                                     </Link>
