@@ -31,7 +31,7 @@ const About = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="md:w-[67%] md:ml-[8rem] sm:w-[55%] lg:w-[80%] sm:ml-36 mb-52 ml-24 lg:mr-14 xl:mr-0 xl:ml-0 xl:w-[80%]" id="image-about">
+                    <div className="md:w-[67%] md:ml-[8rem] sm:w-[55%] lg:w-[65%] sm:ml-36 mb-52 ml-24 lg:mr-14 xl:mr-0 xl:ml-0 xl:w-[96%]" id="image-about">
                         <Image src={code} width='700' heigth='500' alt='cerosunos'/>
                     </div>
                 </div>
