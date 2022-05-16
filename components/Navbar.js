@@ -6,11 +6,11 @@ const Navbar = () => {
     return(
         <nav className="fixed top-0 left-0 z-10 w-full bg-gradient-to-b from-white to-transparent">
             <div className="flex px-0 text-gray-700 lg:pl-0 lg:justify-between md:pl-0 md:mx-5 lg:mx-4 xl:mx-10 xl:pl-14 xl:m-auto xl:justify-between md:justify-between sm:justify-between">
-                <div className='lg:mr-14 xl:pl-[94px] sm:pl-6 md:mr-6 md:pl-0'>
+                <div className='lg:mr-14 xl:pl-[94px] xl:max-w-[12%] lg:max-w-[8%] md:max-w-[9%] sm:max-w-[13%] sm:pl-6 md:mr-6 md:pl-0'>
                     <Link href='/'>
                         <a>
                         <div className='hover:cursor-pointer hover:blur-[1px]'>
-                            <Image src={iconBar} width='75' heigth='20' alt='icon'/>
+                            <Image src={iconBar} width='500' heigth='500' alt='icon'/>
                         </div>
                         </a>
                     </Link>

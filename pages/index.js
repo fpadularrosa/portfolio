@@ -35,9 +35,12 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="sm:mt-9 md:ml-[240px] xl:ml-10 lg:ml-0 md:mt-20 xl:mr-0 sm:pr-10 lg:mr-[-20px] lg:max-w-[560px] sm:max-w-sm md:max-w-[32rem] lg:h-2/4 lg:mt-12 xl:mt-8 xl:max-w-[650px] xl:h-[110vh] md:h-[650px] sm:m-auto" id="image-homepage">
-                    <Image src={imgHome} width='770' heigth='600' alt="programmation"/>
+                <div className="xl:max-w-[50%] sm:mt-9 md:ml-[240px] xl:ml-10 lg:ml-0 md:mt-20 xl:mr-0 sm:pr-10 lg:mr-[-20px] lg:max-w-[560px] sm:max-w-sm md:max-w-[32rem] lg:h-[80%] lg:mt-12 xl:mt-8 md:h-[650px] sm:m-auto">
+                  <div id="image-homepage">
+                    <Image src={imgHome} width='1800' heigth='2514' alt="programmation"/>
                 </div>
+                </div>
+
             </div>
         </div>
         <Expertise/>
