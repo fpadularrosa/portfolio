@@ -17,8 +17,8 @@ const NiceMeetYou = () => {
                     </Link>
                 </div>
             </div>
-            <div className='md:ml-4 xl:ml-0 xl:mr-7 sm:ml-3 xl:w-[560px] xl:h-[420px] sm:w-[440px] sm:h-[380px]'>
-                <Image src={programmation} width='560' heigth='420' alt='notebook'/>
+            <div className='md:ml-4 xl:ml-0 xl:mr-7 sm:ml-3 xl:w-[600px] xl:h-[420px] sm:w-[440px] sm:h-[380px]'>
+                <Image src={programmation} width='600' heigth='400' alt='notebook'/>
             </div>
         </div>
     )
