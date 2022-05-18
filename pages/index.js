@@ -14,19 +14,19 @@ export default function Home() {
       <title>Franco Full Stack Web Developer</title>
       <meta charSet="utf-8"/>
     </Head>
-        <div className="xl:mx-32 xl:pl-7 sm:my-28 sm:mx-0 md:mx-0 md:mb-52 lg:mb-48 md:mt-36 lg:mt-24 lg:mr-2 md:mr-0" id="container-home">
+        <div className="mt-[80px] mx-5 xl:mx-32 xl:pl-7 sm:my-28 sm:mx-0 md:mx-0 md:mb-52 lg:mb-48 md:mt-36 lg:mt-24 lg:mr-2 md:mr-0" id="container-home">
             <div className='xl:text-left xl:justify-around md:pl-0 md:grid lg:pl-0 md:m-0 xl:flex lg:justify-around lg:flex sm:grid sm:justify-items-center'>
                 <div className="grid xl:pt-36 xl:ml-7 lg:pt-28" id="text-home">
                     <div className="mr-0 overflow-hidden sm:ml-6 lg:mr-8" id="container-text">
-                        <h1 className='xl:text-left lg:text-5xl sm:text-4xl lg:max-w-lg xl:text-6xl pb-7 sm:pb-5 sm:max-w-[630px] xl:max-w-2xl xl:leading-tight md:text-6xl md:max-w-7xl'>
+                        <h1 className='xl:text-left text-5xl max-w-xl lg:text-5xl sm:text-4xl lg:max-w-lg xl:text-6xl pb-7 sm:pb-5 sm:max-w-[630px] xl:max-w-2xl xl:leading-tight md:text-6xl md:max-w-7xl'>
                         Hola, soy Franco.<br/>
                         Ayudaré a su equipo a ganar clientes usando el diseño y soluciones éficaces.
                         </h1>
-                        <p className='xl:max-w-lg sm:max-w-4xl sm:text-xl md:max-w-4xl lg:max-w-lg lg:text-[20px] md:text-[28px] xl:text-[24px] text-neutral-500'>
+                        <p className='xl:max-w-lg max-w-lg text-[19px] sm:max-w-4xl sm:text-xl md:max-w-4xl lg:max-w-lg lg:text-[20px] md:text-[28px] xl:text-[24px] text-neutral-500'>
                         Con la creación de valor con un diseño web estratégico, experiencias digitales centradas en las personas y
                         el desarrollo de sitios web de alta calidad.
                         </p>
-                        <div className='inline-block text-xl font-medium transition ease-in border-b-2 rounded-md sm:mt-8 md:pt-12 xl:pt-20 duration-400 hover:border-b-2 hover:border-gray-500 text-neutral-900 hover:text-neutral-500' id='linkToProject1'>
+                        <div className='inline-block mt-8 mb-12 text-xl font-medium transition ease-in border-b-2 rounded-md sm:mt-8 md:pt-12 xl:pt-20 duration-400 hover:border-b-2 hover:border-gray-500 text-neutral-900 hover:text-neutral-500' id='linkToProject1'>
                             <Link className='hover:cursor-pointer' href='/contact'>
                               <a>
                                 <div className='xl:text-2xl sm:text-lg sm:font-medium'>Contáctame</div>
