@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Portfolio = () => {
     return(
         <>
-            <section data-aos='fade' data-aos-once='true'  className='flex xl:w-[94%] sm:pl-9 lg:ml-[20px] md:mr-7 lg:pr-8 lg:w-[98%] md:mb-32 ml-0 md:pl-7 md:w-[175vh] xl:ml-4 sm:mb-20' id="container-portfolio">
+            <section data-aos='fade' data-aos-once='true'  className='mt-20 flex xl:w-[94%] sm:pl-9 lg:ml-[20px] md:mr-7 lg:pr-8 lg:w-[98%] md:mb-32 ml-0 md:pl-7 md:w-[175vh] xl:ml-4 sm:mb-20' id="container-portfolio">
                 <div className='xl:w-[94%] lg:w-full md:w-[175vh] xl:ml-[185px] mx-0' id="container2-portfolio">
                     <div id="title" className='xl:pb-10 md:pb-9 sm:text-4xl sm:pb-8 md:text-4xl xl:text-5xl md:ml-0 xl:flex xl:justify-start'>
                         <h2>Proyectos pasados</h2>
