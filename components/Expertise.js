@@ -2,7 +2,7 @@
 const Expertise = () => {
     return(
         <>
-            <section className="mx-6" id='expertise'>
+            <section className="mx-6 sm:mr-[1.5rem] sm:ml-0" id='expertise'>
                 <div className=" sm:ml-9 md:ml-6 lg:ml-0 sm:mr-16 md:mr-0 md:pr-6 md:pl-0" id='container-expertise'>
                     <div className="flex mb-10" id="title">
                         <div>
