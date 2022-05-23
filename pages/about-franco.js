@@ -12,11 +12,11 @@ const About = () => {
         <Head>
             <title>Franco Portfolio</title>
         </Head>
-            <div data-aos='fade-down' data-aos-duration='500' data-aos-once="true" className="pt-32 xl:flex md:grid md:justify-items-start lg:grid lg:justify-items-start xl:justify-evenly md:px-20 sm:pr-[24px] sm:pl-[24px] lg:px-8 xl:px-52">
+            <div className="pt-20 mx-6 xl:flex md:grid md:justify-items-start lg:grid lg:justify-items-start xl:justify-evenly md:px-20 sm:pr-[24px] sm:pl-[24px] lg:px-8 xl:px-52">
                 <div className='grid content-center mr-40 leading-relaxed md:mr-0 xl:mr-10 sm:mr-0 lg:mr-0 xl:mb-52 mb-36'>
                     <div>
-                        <h1 className='max-w-md sm:max-w-[44rem] md:max-w-[44rem] md:text-6xl lg:text-6xl sm:text-6xl'> Full Stack Web Developer </h1>
-                        <p className='max-w-md mt-4 text-xl sm:max-w-4xl sm:text-xl md:max-w-xl text-neutral-500'>
+                        <h1 className='max-w-xl text-5xl sm:max-w-[44rem] md:max-w-[44rem] md:text-6xl lg:text-6xl sm:text-6xl'> Full Stack Web Developer </h1>
+                        <p className='max-w-lg mt-4 text-xl sm:max-w-4xl sm:text-xl md:max-w-xl text-neutral-500'>
                             ¡Hola de vuelta!<br/>
                             Soy Franco Padularrosa,<br/>
                             me gusta mucho diseñar y desarrollar proyectos increibles que impulsen a las empresas hacia adelante.
@@ -31,7 +31,7 @@ const About = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="md:w-[70%] md:ml-[8rem] sm:w-[55%] lg:w-[46%] sm:ml-36 mb-52 ml-24 lg:mr-14 xl:mr-0 xl:ml-0 xl:w-[90%]" id="image-about">
+                    <div className="md:w-[70%] w-[70%] mx-20 md:ml-[8rem] sm:w-[55%] lg:w-[46%] sm:ml-36 mb-52 lg:mr-14 xl:mr-0 xl:ml-0 xl:w-[90%]" id="image-about">
                         <Image src={code} width='720' heigth='500' alt='cerosunos'/>
                     </div>
                 </div>
