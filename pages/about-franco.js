@@ -12,7 +12,7 @@ const About = () => {
         <Head>
             <title>Franco Portfolio</title>
         </Head>
-            <div className="pt-20 mx-6 xl:flex md:grid md:justify-items-start lg:grid lg:justify-items-start xl:justify-evenly md:px-20 sm:pr-[24px] sm:pl-[24px] lg:px-8 xl:px-52">
+            <div className="pt-20 mx-6 xl:flex md:grid md:justify-items-start lg:grid lg:justify-items-start xl:justify-evenly xl:mt-10 md:px-20 sm:pr-[24px] sm:pl-[24px] lg:px-8 xl:px-52">
                 <div className='grid content-center mr-40 leading-relaxed md:mr-0 xl:mr-10 sm:mr-0 lg:mr-0 xl:mb-52 mb-36'>
                     <div>
                         <h1 className='max-w-xl text-5xl sm:max-w-[44rem] md:max-w-[44rem] md:text-6xl lg:text-6xl sm:text-6xl'> Full Stack Web Developer </h1>

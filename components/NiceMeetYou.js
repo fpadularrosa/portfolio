@@ -18,7 +18,7 @@ const NiceMeetYou = () => {
                 </div>
             </div>
             <div className='md:ml-4 mt-24 mb-28 mx-14 xl:ml-0 xl:mr-7 sm:ml-3 xl:w-[600px] xl:h-[420px] sm:w-[440px] sm:h-[380px]'>
-                <Image src={programmation} width='600' heigth='400' alt='notebook'/>
+                <Image src={programmation} width='400' height='350' alt='notebook'/>
             </div>
         </div>
     )

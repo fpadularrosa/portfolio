@@ -6,8 +6,8 @@ import Link from 'next/link';
 const Portfolio = () => {
     return(
         <>
-            <section className='mt-20 w-full grid justify-items-center xl:w-[90%] lg:ml-[30px] lg:w-full md:mb-32 ml-0 md:w-full xl:mx-12 sm:mb-20' id="container-portfolio">
-                <div className='xl:w-[92%] lg:w-full md:w-[172vh] xl:ml-[185px] md:mx-7 mx-6' id="container2-portfolio">
+            <section className='mt-20 w-full mx-7 grid justify-items-center xl:w-[90%] lg:ml-[30px] lg:w-full md:mb-32 md:w-full xl:mx-12 sm:mb-20' id="container-portfolio">
+                <div className='xl:w-[92%] lg:w-full md:w-[172vh] xl:ml-[185px] md:mx-7' id="container2-portfolio">
                     <div id="title" className='mb-10 text-4xl xl:pb-10 md:pb-9 sm:text-4xl sm:pb-8 md:text-4xl xl:text-5xl xl:flex xl:justify-start'>
                         <h2>Proyectos pasados</h2>
                     </div>
