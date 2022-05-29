@@ -1,6 +1,11 @@
+import { motion } from "framer-motion";
 const Reasons = () => {
     return(
-    <div className="xl:ml-32 mx-6 lg:grid md:grid md:justify-items-start lg:px-7 md:px-[28px] sm:px-8 xl:px-[70px] lg:pb-24" id='container-reasons'>
+    <motion.div
+    initial={{opacity: 0}}
+    transition={{duration: 1.5}}
+    animate={{opacity: 1}}
+    className="xl:ml-32 mx-6 lg:grid md:grid md:justify-items-start lg:px-7 md:px-[28px] sm:px-8 xl:px-[70px] lg:pb-24" id='container-reasons'>
         <div id="container-title">
             <h2 className="pb-12 text-4xl lg:text-4xl sm:text-4xl md:text-4xl">Razones para trabajar conmigo</h2>
         </div>
@@ -22,7 +27,7 @@ const Reasons = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </motion.div>
     )
 }
 export default Reasons;
