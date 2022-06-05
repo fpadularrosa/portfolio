@@ -23,7 +23,7 @@ export default function Home() {
                       transition={{duration: 0.8}}
                       animate={{x: '100', color: '#000'}}
                       className="mr-0 xl:mr-8 xl:ml-2 lg:mr-8" id="container-text">
-                        <h1 className='xl:text-left text-5xl min-w-[570px] xl:min-w-full max-w-4xl lg:text-5xl sm:text-5xl lg:max-w-lg xl:text-6xl pb-7 sm:pb-5 sm:max-w-[630px] xl:max-w-xl xl:leading-tight md:text-6xl md:max-w-7xl'>
+                        <h1 className='xl:text-left text-5xl min-w-[730px] xl:min-w-full max-w-4xl lg:text-5xl sm:text-5xl lg:max-w-lg xl:text-6xl pb-7 sm:pb-5 sm:max-w-[630px] xl:max-w-xl xl:leading-tight md:text-6xl md:max-w-7xl'>
                         Hola, soy Franco.<br/>
                         Ayudaré a su equipo a ganar clientes usando el diseño y soluciones éficaces.
                         </h1>
@@ -31,7 +31,7 @@ export default function Home() {
                           initial={{color: '#fff'}}
                           transition={{duration: 0.8}}
                           animate={{x: '100', color:'#898e8c'}}
-                          className='xl:max-w-lg max-w-lg text-[19px] min-w-[560px] sm:max-w-4xl sm:text-xl md:max-w-4xl lg:max-w-lg lg:text-[20px] md:text-[28px] xl:text-[24px] text-neutral-500'>
+                          className='xl:max-w-lg max-w-2xl text-[19px] min-w-[600px] sm:max-w-4xl sm:text-xl md:max-w-4xl lg:max-w-lg lg:text-[20px] md:text-[28px] xl:text-[24px] text-neutral-500'>
                           Con la creación de valor con un diseño web estratégico, experiencias digitales centradas en las personas y
                           el desarrollo de sitios web de alta calidad.
                         </motion.p>
@@ -42,7 +42,7 @@ export default function Home() {
                                   initial={{x: '-100',left:'-50', color: '#fff'}}
                                   transition={{duration: 0.8}}
                                   animate={{x: '100',left:'0', color: '#000'}}
-                                  className='xl:text-2xl md:text-xl sm:text-lg sm:font-medium'>
+                                  className='text-2xl xl:text-2xl md:text-xl sm:text-lg sm:font-medium'>
                                     Contáctame
                                 </motion.div>
                               </a>
