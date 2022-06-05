@@ -26,7 +26,7 @@ const Electroshop = () => {
                             </div>
                             <Link href='https://electroshop-ecommerce.vercel.app'>
                             <a target='_blank' rel="noreferrer">
-                                <div id='secondProject' className='mb-4 min-w-[670px] h-[78vh] sm:mr-[2rem] lg:mr-[9px] md:h-[100vh] lg:h-[120vh] sm:h-[70vh] xl:h-screen lg:w-full xl:w-full md:w-full bg-gradient-to-tr to-pink-600 via-pink-500 from-pink-300'>
+                                <div id='secondProject' className='mb-4 min-w-[670px]  md:min-w-[1000px] h-[78vh] sm:mr-[2rem] lg:mr-[9px] md:h-[108vh] lg:h-[120vh] sm:h-[70vh] xl:h-screen lg:w-full xl:w-full md:w-full bg-gradient-to-tr to-pink-600 via-pink-500 from-pink-300'>
                                     <div className='grid pb-0 lg:mt-12 md:pt-8 sm:pt-4 justify-items-center lg:pt-10 lg:ml-14 md:grid xl:mb-10 xl:ml-0 md:justify-items-center lg:grid lg:justify-items-start sm:grid sm:justify-items-center xl:grid xl:place-items-center'>
                                         <div className="w-[90%] xl:w-[90%] md:w-[87%] sm:w-[84%] lg:w-[94%]">
                                             <div className='shadow-2xl h-[200px] mt-8 xl:mt-16 sm:h-[220px] md:w-full lg:w-full sm:w-full md:h-[333px] xl:w-full' id='project1'>

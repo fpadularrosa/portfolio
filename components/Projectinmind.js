@@ -4,8 +4,8 @@ const Projectinmind = () => {
         <>
         <div className="mx-6 xl:flex xl:pb-24 sm:mt-32 sm:ml-6 xl:pt-10 xl:justify-around md:mt-60 md:ml-5" id='project-in-mind'>
            <div id="container-text-project">
-                <h2 className="text-4xl xl:text-5xl md:text-5xl sm:text-4xl">Tenes un proyecto en mente?</h2>
-                <h2 className="text-4xl xl:text-5xl md:text-5xl sm:text-4xl">Sentite libre de compartirlo!</h2>
+                <h2 className="text-4xl min-w-[400px] xl:text-5xl md:text-5xl sm:text-4xl">Tenes un proyecto en mente?</h2>
+                <h2 className="text-4xl min-w-[400px] xl:text-5xl md:text-5xl sm:text-4xl">Sentite libre de compartirlo!</h2>
            </div>
             <div id="div-button">
                 <Link href='/contact'>
