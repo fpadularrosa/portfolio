@@ -12,7 +12,7 @@ const Reasons = () => {
         <div className="grid xl:border-y-0 lg:border-y-0 border-y-[1px] sm:grid sm:justify-items-start lg:flex lg:justify-evenly md:grid md:justify-items-start xl:justify-between" id="reasons">
             <div className='mt-6 mb-4 lg:max-w-sm lg:pr-8 sm:py-6 xl:pr-10 md:py-6'>
                 <h3 className="lg:text-[23px] sm:text-2xl md:text-2xl text-xl mb-3">Experiencia<br/>e<br/>Impacto</h3>
-                <p className="max-w-2xl text-gray-500 sm:max-w-xl md:max-w-2xl sm:pt-6 lg:max-w-lg lg:text-xl md:pt-4 lg:pt-6">Todavía no tengo 1 año de experiencia, pero soy una persona con mucha constancia, practicando, aprendiendo nuevas tecnologías, etc. Egresado de Henry Bootcamp para aplicar soluciones a problemas del mundo.</p>
+                <p className="max-w-2xl text-gray-500 sm:max-w-xl md:max-w-2xl sm:pt-6 lg:max-w-lg lg:text-xl md:pt-4 lg:pt-6">Realicé distintos proyectos de desarrollo web, entre ellos un ecommerce, una web app de comida con filtros y demás caracteristicas, quiero trabajar en proyectos desafiantes de los cuales poder aprender mucho.</p>
             </div>
             <div className="sm:border-t-[1px] border-t-[1px] xl:border-t-0 lg:border-t-0 lg:max-w-sm sm:max-w-2xl lg:px-8 xl:px-10 sm:border-l-0 lg:border-l-[2px] sm:pt-6 sm:pb-6 md:pb-5">
                 <div className='mt-6 mb-4 lg:max-w-sm lg:pr-8 xl:pr-10 md:py-6'>

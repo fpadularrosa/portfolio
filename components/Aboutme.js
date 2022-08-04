@@ -9,12 +9,12 @@ const Aboutme = () => {
                     <h2 className="pb-5 text-4xl lg:text-4xl sm:text-4xl md:text-4xl">Sobre mi</h2>
                     <p className='lg:max-w-5xl sm:max-w-[60rem] xl:max-w-7xl sm:text-md md:max-w-4xl lg:text-lg text-neutral-500'>Soy un Full Stack Web Developer, nací en Argentina, Buenos Aires y actualmente ando en busca de proyectos emocionantes. <br/><br/>
                     Siempre fui una persona empática a la que le gusta ayudar a las personas a lograr resultados de la manera más eficiente. Esta capacidad natural me permitió construir relaciones sólidas con compañeros dentro de cada rol en el que trabajé. <br/><br/>
-                    En el 2021 me decidí a estudiar programación encontrando el bootcamp Soy Henry, me egresé de este en Abril de 2022, sigo aprendiendo nuevas tecnologías como NextJs y Tailwind, cada día aplicando un poco más.<br/><br/>
+                    En el 2021 me decidí a estudiar programación y entré al bootcamp Henry porque quiero independizarme y porque hubo algo por lo que siempre me atrajo la tecnología, seguramente por ser un nativo dígital, sigo aprendiendo nuevas tecnologías como NextJs, Tailwind, MongoDB, etc.<br/><br/>
                     Como persona, tengo un enfoque muy positivo y libre de ego para todos los aspectos de mi vida, y llevo una fuerte ética de trabajo conmigo en cada lugar al que voy.
                     </p>
                 </div>
                 <div className="mt-10 ml-[120px] md:ml-8 lg:mt-32 md:mt-24 sm:mt-32 xl:mt-8 xl:ml-40 lg:ml-24">
-                    <div className="xl:w-[95%] w-[70%] sm:w-[85%] md:w-full lg:w-[90%] lg:h-[70%] xl:h-[85%]">
+                    <div className="xl:w-[100%] w-[70%] sm:w-[85%] md:w-full lg:w-[90%] lg:h-[70%] xl:h-[85%]">
                         <Image src={franco} width='900' heigth='980' alt='selfie'/>
                     </div>
                 </div>
