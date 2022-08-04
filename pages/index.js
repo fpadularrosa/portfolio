@@ -15,9 +15,9 @@ export default function Home() {
       <title>Franco Full Stack Web Developer</title>
       <meta charSet="utf-8"/>
     </Head>
-        <div className="mt-[92px] w-full mb-40 xl:mx-24 xl:pl-7 sm:my-28 sm:mx-0 md:mx-0 md:mb-52 lg:mb-48 md:mt-36 lg:mt-24 lg:pl-[45px] md:mr-0" id="container-home">
-            <div className='xl:text-left xl:mr-[255px] pl-[23px] pr-[23px] xl:justify-around md:pl-0 md:grid lg:pl-0 md:m-0 xl:flex lg:justify-around lg:flex sm:grid sm:justify-items-center'>
-                <div className="xl:pt-36 md:pl-[30px] lg:pt-28" id="text-home">
+        <div className="mt-[92px] w-full mb-40 xl:mx-8 xl:pl-16 sm:my-28 sm:mx-0 md:mx-0 md:mb-52 lg:mb-48 md:mt-36 lg:mt-24 lg:pl-[45px] md:mr-0" id="container-home">
+            <div className='xl:text-left xl:pl-0 xl:pr-0 xl:mr-[120px] pl-[23px] pr-[23px] xl:justify-around md:pl-0 md:grid lg:pl-0 md:m-0 xl:flex lg:justify-around lg:flex sm:grid sm:justify-items-center'>
+                <div className="xl:pt-36 xl:pl-0 md:pl-[30px] lg:pt-28" id="text-home">
                     <motion.div
                       initial={{x: '-200', color: '#fff'}}
                       transition={{duration: 0.8}}
@@ -50,7 +50,7 @@ export default function Home() {
                         </div>
                     </motion.div>
                 </div>
-                <div className="xl:max-w-[45%] max-w-[70%] ml-14 min-w-[400px] lg:min-w-[520px] sm:mt-9 md:ml-[240px] lg:ml-0 md:mt-20 sm:pr-10 lg:mr-[-20px] lg:max-w-[560px] sm:max-w-sm md:max-w-[32rem] lg:h-[80%] lg:mt-12 xl:mt-8 md:h-[650px] sm:m-auto">
+                <div className="max-w-[70%] xl:max-w-full ml-14 min-w-[400px] lg:min-w-[520px] sm:mt-9 md:ml-[240px] lg:ml-0 md:mt-20 sm:pr-10 lg:mr-[-20px] lg:max-w-[560px] sm:max-w-sm md:max-w-[32rem] lg:h-[80%] lg:mt-12 xl:mt-36 md:h-[650px] sm:m-auto">
                   <motion.div
                   transition={{duration: 2}}
                   id="image-homepage">

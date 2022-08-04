@@ -1,4 +1,4 @@
-import henryFood from '../utils/henry-food.jpg';
+import henryFood from '../utils/henryfood.jpg';
 import Image from 'next/image';
 import electroShop from '../utils/electroshop.png'
 import Link from 'next/link';
