@@ -3,7 +3,7 @@ import Image from 'next/image';
 import electroShop from '../utils/electroshop.png'
 import Link from 'next/link';
 
-const Portfolio = () => {
+const Projects = () => {
     return(
         <>
             <section className='mt-20 w-full pr-[25px] pl-[25px] min-w-[800px] sm:min-w-[815px] sm:pr-[30px] sm:pl-[30px] grid justify-items-center xl:w-[93%] lg:pl-[35px] lg:pr-[20px] lg:w-full md:pr-[30px] md:pl-[30px] md:mb-32 md:w-full xl:pr-[35px] xl:pl-[40px] sm:mb-20' id="container-portfolio">
@@ -84,4 +84,4 @@ const Portfolio = () => {
         </>
     )
 }
-export default Portfolio;
+export default Projects;

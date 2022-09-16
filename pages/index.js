@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import Portfolio from "../components/Portfolio";
+import Projects from "../components/Projects";
 import Expertise from "../components/Expertise";
 import imgHome from '../utils/gafas-ordenador.jpg';
 import Head from "next/head";
@@ -60,7 +60,7 @@ export default function Home() {
             </div>
         </div>
         <Expertise/>
-        <Portfolio/>
+        <Projects/>
         <NiceMeetYou/>
         <Project/>
     </>

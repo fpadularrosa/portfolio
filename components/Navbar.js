@@ -21,7 +21,7 @@ const Navbar = () => {
                             <li className="inline-block py-1 mx-4 text-xl text-black transition ease-in border-b-2 rounded-md duration-400 border-neutral-300 hover:border-b-2 hover:border-black xl:text-lg hover:text-neutral-300">Experiencia</li>
                         </a>
                     </Link>
-                    <Link href='/#portfolio'>
+                    <Link href='/#projects'>
                         <a className="duration-500 hover:cursor-pointer hover:text-neutral-300">
                             <li className="inline-block py-1 mx-4 text-xl text-black transition ease-in border-b-2 rounded-md duration-400 border-neutral-300 hover:border-b-2 hover:border-black xl:text-lg hover:text-neutral-300">Portfolio</li>
                         </a>
@@ -51,7 +51,7 @@ const Navbar = () => {
                             <Link href='/#expertise'>
                                 <a><li className="w-full px-6 py-4 text-xl text-white transition duration-500 ease-in rounded-md hover:text-neutral-400 duration-400 hover:border-b-2 hover:border-gray-500">Experiencia</li></a>
                             </Link>
-                            <Link href='/#portfolio'>
+                            <Link href='/#projects'>
                                 <a><li className="w-full px-6 py-4 text-xl text-white transition duration-500 ease-in rounded-md hover:text-neutral-400 duration-400 hover:border-b-2 hover:border-gray-500">Portfolio</li></a>
                             </Link>
                             <Link href='/about-franco'>

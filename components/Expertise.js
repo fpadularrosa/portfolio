@@ -12,15 +12,15 @@ const Expertise = () => {
                         <div className="sm:relative min-w-[300px] lg:mr-20 lg:ml-7 xl:mr-60 md:mr-20 xl:ml-12 sm:mr-8" id='content-design'>
                             <hr className='xl:pb-7 sm:pb-7 min-w-[300px] w-[515px] lg:w-[440px] xl:w-[490px] md:w-[470px] sm:w-[552px]' width='530'/>
                                 <h3 className='mt-4 mb-3 text-2xl min-w-[300px] font-medium xl:pb-2 xl:text-3xl sm:text-2xl sm:pb-2'>Diseño estratégico</h3>
-                                <p className='xl:max-w-lg mb-7 min-w-[450px] max-w-xl sm:max-w-xl sm:text-lg lg:max-w-lg text-neutral-500 xl:leading-relaxed xl:text-[22px] sm:leading-relaxed md:text-md md:max-w-sm'>Ayudo a los equipos a alinearse en los principales desafíos comerciales y a enfocar los esfuerzos de diseño para resolverlos. Diseño para impulsar las empresas hacia adelante.
+                                <p className='xl:max-w-lg mb-7 min-w-[450px] max-w-xl sm:max-w-xl sm:text-lg lg:max-w-lg text-neutral-500 xl:leading-relaxed xl:text-[22px] sm:leading-relaxed md:text-md md:max-w-sm'>Ayudo a los equipos a alinearse en los principales desafíos. Diseño y creo software de calidad para impulsar las empresas hacia adelante.
                                 </p>
                             <hr className='xl:mt-[60px] min-w-[300px] hidden w-[515px] sm:block md:mt-[37px] lg:w-[440px] sm:mb-7 sm:mt-7 xl:w-[490px] md:w-[470px] sm:w-[552px]' width='530' />
                         </div>
                         <div className="sm:relative min-w-[300px] md:mr-10 xl:mr-52 sm:mr-20" id='content-develop'>
                             <hr className='xl:pb-8 sm:pb-7 md:pb-3 min-w-[300px] w-[515px] xl:w-[490px] lg:block md:block xl:block sm:hidden lg:w-[440px] md:w-[470px]' width='530' />
                                 <h3 className='mt-8 mb-3 text-2xl font-medium xl:mt-3 lg:mt-8 xl:pb-4 xl:text-3xl sm:text-2xl sm:pb-2'>Desarrollo Web</h3>
-                                <p className='xl:max-w-lg min-w-[450px] mb-7 max-w-xl sm:max-w-xl sm:text-lg lg:max-w-lg text-neutral-500 xl:leading-relaxed xl:text-[22px] sm:leading-relaxed md:max-w-sm md:text-md'>Utilizando las últimas tecnologías, llevo los sitios web al siguiente nivel con la creación de experiencias digitales que convencen a los clientes.</p>
-                            <hr className='xl:mt-[53px] min-w-[300px] md:mt-[66px] w-[515px] sm:mt-7 sm:w-[552px] lg:mt-[67px] lg:w-[440px] xl:w-[490px] md:w-[470px]' width='530'/>
+                                <p className='xl:max-w-lg min-w-[450px] mb-7 max-w-xl sm:max-w-xl sm:text-lg lg:max-w-lg text-neutral-500 xl:leading-relaxed xl:text-[22px] sm:leading-relaxed md:max-w-sm md:text-md'>Utilizando las últimas tecnologías, llevo los sitios web al siguiente nivel con la creación de experiencias digitales orientado a los usuarios y clientes.</p>
+                            <hr className='xl:mt-[47px] min-w-[300px] md:mt-9 w-[515px] sm:mt-7 sm:w-[552px] lg:mt-9 lg:w-[440px] xl:w-[490px] md:w-[470px]' width='530'/>
                         </div>
                     </div>
                 </div>
