@@ -1,5 +1,5 @@
 import React from "react";
-import henryFood from '../utils/henryfood.jpg';
+import henryFood from '../utils/homepage.png';
 import Image from 'next/image';
 import Project from '../components/Projectinmind';
 import Link from 'next/link';

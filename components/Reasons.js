@@ -12,7 +12,7 @@ const Reasons = () => {
         <div className="grid xl:border-y-0 lg:border-y-0 border-y-[1px] sm:grid sm:justify-items-start lg:flex lg:justify-evenly md:grid md:justify-items-start xl:justify-between" id="reasons">
             <div className='mt-6 mb-4 lg:max-w-sm lg:pr-8 sm:py-6 xl:pr-10 md:py-6'>
                 <h3 className="lg:text-[23px] sm:text-2xl md:text-2xl text-xl mb-3">Experiencia<br/>e<br/>Impacto</h3>
-                <p className="max-w-2xl text-gray-500 sm:max-w-xl md:max-w-2xl sm:pt-6 lg:max-w-lg lg:text-xl md:pt-4 lg:pt-6">Realicé distintos proyectos de desarrollo web, entre ellos un ecommerce, una web app de comida con filtros y demás caracteristicas, quiero trabajar en proyectos desafiantes y/o extraordinarios de los cuales poder aprender mucho.</p>
+                <p className="max-w-2xl text-gray-500 sm:max-w-xl md:max-w-2xl sm:pt-6 lg:max-w-lg lg:text-xl md:pt-4 lg:pt-6">Realicé apps desde un Ecommerce aplicando ágiles, una SPA con filtros y ordenamientos hasta un clon de Instagram con Firebase, con muchas ganas de aportar software de calidad en proyectos de los cuales pueda aprender mucho y explotar todo mi potencial.</p>
             </div>
             <div className="sm:border-t-[1px] border-t-[1px] xl:border-t-0 lg:border-t-0 lg:max-w-sm sm:max-w-2xl lg:px-8 xl:px-10 sm:border-l-0 lg:border-l-[2px] sm:pt-6 sm:pb-6 md:pb-5">
                 <div className='mt-6 mb-4 lg:max-w-sm lg:pr-8 xl:pr-10 md:py-6'>
@@ -23,7 +23,7 @@ const Reasons = () => {
             <div className="sm:border-t-[1px] border-t-[1px] xl:border-t-0 lg:border-t-0 lg:max-w-sm sm:max-w-2xl lg:pl-8 xl:pl-12 sm:border-l-0 lg:border-l-[2px]">
                 <div className='mt-6 mb-4 lg:max-w-sm lg:pr-8 xl:pr-10 md:py-6'>
                     <h3 className="lg:text-[23px] sm:text-2xl md:text-2xl text-xl mb-3">Curiosidad <br/> y <br/> mejora continúa</h3>
-                    <p className="max-w-2xl text-gray-500 sm:max-w-xl md:pb-7 sm:pb-6 sm:pt-6 md:max-w-2xl lg:max-w-lg lg:text-xl md:pt-4 lg:pt-6">Siempre estoy buscando mejorar mis habilidades y actualizar mis conocimientos a las últimas soluciones / mejores prácticas, lo que mejora la velocidad y la calidad del proceso de producción.</p>
+                    <p className="max-w-2xl text-gray-500 sm:max-w-xl md:pb-7 sm:pb-6 sm:pt-6 md:max-w-2xl lg:max-w-lg lg:text-xl md:pt-4 lg:pt-6">Me gusta mejorar mis habilidades y actualizar mis conocimientos a las últimas soluciones / mejores prácticas, lo que mejora la velocidad y la calidad del proceso de producción.</p>
                 </div>
             </div>
         </div>

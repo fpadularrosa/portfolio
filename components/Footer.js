@@ -27,7 +27,7 @@ const Footer = () => {
             <div id='second-container-footer' className='grid w-full pr-0 text-white justify-items-center lg:pr-2 lg:pl-7 xl:justify-items-center sm:justify-items-start sm:pl-5'>
                 <hr className="md:w-[98%] w-[90%] xl:w-[70%] lg:w-[98%] sm:w-[97%]" width='45%'/>
                 <div className='py-6 text-lg'>
-                    Diseñado y desarrollado con ❤ por Franco Padularrosa
+                    Desarrollado con ❤ por Franco Padularrosa
                     <br/>
                     ©2022
                 </div>
