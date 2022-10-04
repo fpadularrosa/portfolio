@@ -3,7 +3,7 @@ export default function Document() {
   return (
     <Html>
       <Head/>
-      <body className='min-h-full m-0 font-satoshi'>
+      <body className='m-0 font-satoshi'>
         <Main />
         <NextScript />
       </body>
