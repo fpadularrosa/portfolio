@@ -27,7 +27,7 @@ class PopsOut extends React.Component {
                             </div>
                             <Link href='https://popsout.herokuapp.com'>
                             <a target='_blank' rel="noreferrer">
-                                <div id='firtProject' className='mb-4 min-w-[720px] md:min-w-[1000px] h-[78vh] sm:mr-[2rem] lg:mr-[9px] md:h-[108vh] lg:h-[103vh] sm:h-[72vh] xl:h-screen lg:w-full xl:w-full md:w-full bg-gradient-to-tr to-teal-900 via-sky-700 from-blue-300'>
+                                <div id='firtProject' className='mb-4 min-w-[720px] md:min-w-[1000px] h-[78vh] sm:mr-[2rem] lg:mr-[9px] md:h-[108vh] lg:h-[103vh] sm:h-[72vh] xl:h-screen lg:w-full xl:w-full md:w-full bg-gradient-to-br to-purple-800 via-purple-500 from-purple-100'>
                                     <div className='pb-0 lg:mt-12 grid justify-items-center md:pt-10 lg:ml-[7rem] sm:pt-2 xl:ml-[0rem] lg:pt-10 md:grid xl:mb-10 md:justify-items-center lg:grid lg:justify-items-start sm:grid sm:justify-items-center xl:grid xl:place-items-center'>
                                         <div className="w-[90%] md:w-[87%] sm:w-[95%]">
                                             <div className='shadow-2xl w-full h-[200px] mt-8 xl:mt-16 sm:h-[220px] md:w-full lg:w-full sm:w-full md:h-[300px] xl:w-full' id='project1'>

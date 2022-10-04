@@ -3,7 +3,7 @@ const Expertise = () => {
     return(
         <>
             <section className="mx-6 xl:pr-0 xl:mx-0 xl-pl-0 lg:pl-[10px] lg:pr-[25px] sm:mr-[1.5rem] sm:ml-0" id='expertise'>
-                <div className="sm:ml-9 md:ml-6 lg:ml-0 sm:mr-16 md:mr-0 md:pr-6 xl:ml-0 xl:pr-0 md:pl-0" id='container-expertise'>
+                <div className="js-show-on-scroll sm:ml-9 md:ml-6 lg:ml-0 sm:mr-16 md:mr-0 md:pr-6 xl:ml-0 xl:pr-0 md:pl-0" id='container-expertise'>
                     <div className="flex mb-6 " id="title">
                         <h2 className='xl:text-[45px] drop-shadow-md shadow-red-200 min-w-[300px] text-4xl md:ml-[5px] lg:ml-6 md:font-thin md:text-4xl sm:text-4xl xl:ml-[90px] '>Mi experiencia</h2>
                     </div>

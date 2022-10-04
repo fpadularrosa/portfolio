@@ -5,6 +5,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        fadeIn: "fadeIn 2s ease-in forwards"
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 }
+        }
+      },
       screens: {
         'cel': '200px',
         'tablet': '640px',
@@ -23,6 +32,7 @@ module.exports = {
   },
   variants: {
     borderWidth: ['responsive', 'hover', 'focus'],
+    animation: ["motion-safe"]
   },
   plugins: [],
 }
