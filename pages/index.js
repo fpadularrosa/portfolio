@@ -15,8 +15,8 @@ export default function Home() {
       <title>Franco Full Stack Web Developer</title>
       <meta charSet="utf-8"/>
     </Head>
-        <div className="mt-[92px] xl:mt-2 w-full mb-40 xl:mx-[9px] xl:flex  sm:my-28 sm:mx-0 md:mx-0 md:mb-52 lg:mb-48 md:mt-36 lg:mt-24 lg:pl-[45px] md:mr-0" id="container-home">
-            <div className='xl:text-left xl:pl-0 xl:pr-0 xl:mr-[100px] pl-[23px] pr-[23px] xl:flex-row xl:items-center xl:mx-10 xl:justify-center md:pl-0 md:grid lg:pl-0 md:m-0 xl:flex lg:justify-around lg:flex sm:grid sm:justify-items-center'>
+        <div className="mt-[92px] xl:mt-0 w-full mb-40 xl:flex  sm:my-28 sm:mx-0 md:mx-0 md:mb-52 lg:mb-48 md:mt-36 lg:mt-24 lg:pl-[45px] md:mr-0" id="container-home">
+            <div className='xl:text-left xl:pl-0 xl:pr-0 xl:mr-[100px] pl-[23px] pr-[23px] xl:flex-row xl:items-center xl:mx-[50px] xl:justify-center md:pl-0 md:grid lg:pl-0 md:m-0 xl:flex lg:justify-around lg:flex sm:grid sm:justify-items-center'>
                 <div className="xl:pt-46 xl:pl-0 md:pl-[30px] lg:pt-28 sm:pl-3" id="text-home">
                     <motion.div
                       initial={{x: '-200', color: '#fff'}}

@@ -3,7 +3,7 @@ import programmation from '../utils/programmation.png';
 import Link from 'next/link';
 const NiceMeetYou = () => {
     return(
-        <div className='ml-0 xl:ml-28 xl:flex xl:flex-row xl:justify-center xl:items-center md:ml-6 sm:ml-6' id='nicetoMeetYou'>
+        <div className='ml-0 overflow-hidden xl:ml-28 xl:flex xl:flex-row xl:justify-center xl:items-center md:ml-6 sm:ml-6' id='nicetoMeetYou'>
             <div className=' xl:pr-40 xl:mb-0 md:mb-7 sm:mb-20'>
                 <h3 className='text-4xl min-w-[350px] md:text-4xl xl:text-4xl sm:text-3xl'>Un gusto conocerte</h3>
                 <p className='xl:max-w-lg min-w-[250px] sm:text-lg xl:my-5 sm:my-4 xl:text-[20px] md:max-w-2xl md:text-xl md:mt-4 text-neutral-500'>Me encanta resolver problemas con gente buena onda e increible</p>

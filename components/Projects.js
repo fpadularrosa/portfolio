@@ -6,7 +6,7 @@ import popsout from '../public/popsout.png';
 const Projects = () => {
     return(
         <>
-            <section className='mt-20 xl:mt-28 w-full pr-[25px] pl-[25px] min-w-[800px] sm:min-w-[815px] flex justify-center sm:pr-[30px] sm:pl-[30px] xl:w-[93%] lg:pl-[35px] lg:pr-[20px] lg:w-full md:pr-[30px] md:pl-[30px] md:mb-32 md:w-full xl:pr-0 xl:ml-[36px] sm:mb-20' id="container-portfolio">
+            <section className='overflow-hidden mt-20 xl:mt-28 w-full pr-[25px] pl-[25px] min-w-[800px] sm:min-w-[815px] flex justify-center sm:pr-[30px] sm:pl-[30px] xl:w-[93%] lg:pl-[35px] lg:pr-[20px] lg:w-full md:pr-[30px] md:pl-[30px] md:mb-32 md:w-full xl:pr-0 xl:ml-[36px] sm:mb-20' id="container-portfolio">
                 <div className='xl:w-[95%] lg:w-full md:w-[195vh] flex-col flex justify-center ' id="container2-portfolio">
                     <div id="title" className='mb-10 text-4xl xl:pb-10 md:pb-9 sm:text-4xl sm:pb-8 md:text-4xl xl:text-5xl xl:flex xl:justify-start'>
                         <h2>Proyectos pasados</h2>
