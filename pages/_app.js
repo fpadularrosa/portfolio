@@ -9,7 +9,6 @@ function MyApp({ Component, pageProps }) {
     const targets = document.querySelectorAll(".js-show-on-scroll");
     const newOptions = {};
 
-    // Callback for IntersectionObserver
     function callback(entries) {
         entries.forEach(entry => {
             if (entry.isIntersecting) {

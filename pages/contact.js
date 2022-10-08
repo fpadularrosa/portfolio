@@ -52,18 +52,18 @@ const Contact = () => {
                     </p>
                 </div>
                 <form className="grid w-full mt-7 xl:w-[40%] sm:w-[93%] md:mt-7 lg:w-[60%]" onSubmit={e => handleSubmit(e)} action="https://formspree.io/f/xayvprej" autoComplete="nope" id='form-contact' method="POST">
-                    <Input className="w-full px-4 py-5 text-base font-semibold border-b-2 border-gray-400 focus:outline-none focus:border-green-400"
+                    <Input className="w-full px-4 py-5 text-base font-semibold border-b-2 border-gray-400 focus:outline-none focus:border-black"
                     value={values.name}
                     onChange={handleChange} 
                     name='name' 
                     placeholder='Tu nombre'/>
-                    <Input className="w-full px-4 py-5 text-base font-semibold border-b-2 border-gray-400 focus:outline-none focus:border-green-400"
+                    <Input className="w-full px-4 py-5 text-base font-semibold border-b-2 border-gray-400 focus:outline-none focus:border-black"
                     value={values.email} 
                     onChange={handleChange} 
                     name='email' 
                     placeholder='Tu email'/>
                     <TextArea
-                    className="w-full px-4 py-5 text-base font-semibold border-b-2 border-gray-400 focus:outline-none focus:border-green-400"
+                    className="w-full px-4 py-5 text-base font-semibold border-b-2 border-gray-400 focus:outline-none focus:border-black"
                     rows='5'
                     onChange={handleChange}
                     name='project'

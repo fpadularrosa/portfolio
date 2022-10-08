@@ -15,47 +15,32 @@ export default function Home() {
       <title>Franco Full Stack Web Developer</title>
       <meta charSet="utf-8"/>
     </Head>
-        <div className="mt-[92px] xl:mt-0 w-full mb-40 xl:flex  sm:my-28 sm:mx-0 md:mx-0 md:mb-52 lg:mb-48 md:mt-36 lg:mt-24 lg:pl-[45px] md:mr-0" id="container-home">
-            <div className='xl:text-left xl:pl-0 xl:pr-0 xl:mr-[100px] pl-[23px] pr-[23px] xl:flex-row xl:items-center xl:mx-[50px] xl:justify-center md:pl-0 md:grid lg:pl-0 md:m-0 xl:flex lg:justify-around lg:flex sm:grid sm:justify-items-center'>
-                <div className="xl:pt-46 xl:pl-0 md:pl-[30px] lg:pt-28 sm:pl-3" id="text-home">
-                    <motion.div
-                      initial={{x: '-200', color: '#fff'}}
-                      transition={{duration: 2}}
-                      animate={{x: '100', color: '#000'}}
-                      className="mr-0 xl:mr-20 xl:ml-1 lg:mr-8" id="container-text">
-                        <h1 className='xl:text-left text-5xl min-w-[730px] lg:min-w-[500px] max-w-4xl lg:text-5xl sm:text-5xl lg:max-w-lg xl:text-5xl pb-7 sm:pb-5 sm:max-w-[630px] xl:max-w-6xl xl:leading-tight md:text-6xl md:max-w-7xl'>
+        <div className="mt-[92px] xl:my-44 md:flex md:justify-center w-full mb-40 md:px-7 xl:ml-0 xl:mr-0 sm:my-28 sm:mx-0 md:mx-0 md:mb-52 lg:mb-48 xl:pb-36 md:mt-36 lg:pr-8 xl:px-0 lg:mt-24 lg:pl-0 md:mr-0" id="container-home">
+            <div className='js-show-on-scroll lg:pr-0 xl:flex xl:text-left md:pr-0 xl:justify-around xl:flex-row xl:pl-0 xl:pr-0 xl:ml-0 pl-[23px] pr-[23px] xl:items-center xl:mr-0 md:pl-0 md:flex md:flex-col md:justify-center md:items-center lg:pl-0 md:m-0 lg:justify-around lg:flex lg:flex-row sm:grid sm:justify-items-center'>
+                <div className="xl:pt-10 xl:pl-0 xl:ml-0 md:pl-0 lg:pt-10 lg:max-w-[425px] md:max-w-full xl:max-w-[620px] lg:pl-0 sm:pl-3 lg:mr-14 xl:mr-[80px]" id="text-home">
+                    <div className="mr-0 xl:mr-0 xl:ml-6 lg:mr-0 lg:ml-[6px]" id="container-text">
+                        <h1 className='xl:text-left text-5xl min-w-[730px] lg:min-w-[400px] max-w-4xl lg:text-5xl lg:font-medium sm:text-5xl lg:max-w-[480px] xl:text-6xl pb-7 sm:pb-5 sm:max-w-[630px] xl:max-w-[550px] md:min-w-[700px] xl:leading-tight md:text-6xl md:max-w-[1000px]'>
                         Hola, soy Franco.<br/>
                         Ayudaré a su equipo a ganar clientes usando el diseño y soluciones éficaces.
                         </h1>
-                        <motion.p
-                          initial={{color: '#fff'}}
-                          transition={{duration: 1.8}}
-                          animate={{x: '100', color:'#898e8c'}}
-                          className='xl:max-w-lg max-w-2xl text-[19px] min-w-[600px] lg:min-w-[500px] sm:max-w-4xl sm:text-xl md:max-w-4xl lg:max-w-lg text-justify lg:text-[20px] md:text-[28px] xl:text-[20px] text-neutral-500'>
+                        <p className='xl:max-w-md max-w-2xl text-[19px] min-w-[600px] lg:min-w-[250px] lg:max-w-[400px] sm:max-w-4xl sm:text-xl md:max-w-4xl text-justify lg:text-[22px] md:text-[28px] xl:text-[20px] text-neutral-500'>
                           Con la creación de valor con un diseño web estratégico, experiencias digitales centradas en las personas y
                           el desarrollo de sitios web de alta calidad.
-                        </motion.p>
-                        <div className='inline-block mt-10 text-xl font-medium transition ease-in border-b-2 rounded-md mb-14 sm:mt-8 md:pt-12 xl:pt-6 duration-400 hover:border-b-2 hover:border-gray-500 text-neutral-900 hover:text-neutral-500' id='linkToProject1'>
+                        </p>
+                        <div className='inline-block mt-10 text-xl font-medium transition ease-in border-b-2 rounded-md mb-14 sm:mt-8 lg:pt-6 md:pt-12 xl:pt-10 duration-400 hover:border-b-2 hover:border-gray-500 text-neutral-900 hover:text-neutral-500' id='linkToProject1'>
                             <Link className='hover:cursor-pointer' href='/contact'>
                               <a>
-                                <motion.div 
-                                  initial={{x: '-100',left:'-50', color: '#fff'}}
-                                  transition={{duration: 1.8}}
-                                  animate={{x: '100',left:'0', color: '#000'}}
+                                <div 
                                   className='text-2xl xl:text-xl md:text-xl sm:text-xl sm:font-medium'>
                                     Contáctame
-                                </motion.div>
+                                </div>
                               </a>
                             </Link>
                         </div>
-                    </motion.div>
+                    </div>
                 </div>
-                <div className="js-show-on-scroll max-w-[70%] xl:max-w-full ml-14 min-w-[400px] lg:min-w-[520px] sm:mt-9 md:ml-[240px] lg:ml-0 md:mt-20 sm:pr-10 lg:mr-[-20px] lg:max-w-[560px] sm:max-w-sm md:max-w-[32rem] lg:h-[80%] xl:h-[800px] lg:mt-12 xl:mt-36 md:h-[650px] xl:mx-0 sm:m-auto">
-                  <motion.div
-                  transition={{duration: 2}}
-                  id="image-homepage">
-                    <Image src={imgHome} width='1700' heigth='1014' alt="programmation"/>
-                  </motion.div>
+                <div className=" max-w-[70%] ml-14 min-w-[400px] lg:min-w-[450px] sm:mt-9 md:ml-0 lg:pr-0 lg:ml-0 md:mt-20 sm:pr-10 lg:mr-0 lg:max-w-[470px] xl:ml-0 xl:max-w-[600px] sm:max-w-sm md:min-w-[468px] md:pr-0 md:mr-0 lg:h-auto xl:h-auto lg:mt-12 xl:mt-0 xl:mb-0 xl:mr-[40px] sm:m-auto">
+                    <Image src={imgHome} width='2100' heigth='800' alt="programmation"/>
                 </div>
             </div>
         </div>

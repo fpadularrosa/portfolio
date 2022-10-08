@@ -4,8 +4,8 @@ import Link from 'next/link';
 const Navbar = () => {
     
     return(
-        <nav className="fixed top-0 left-0 z-10 w-full overflow-hidden bg-gradient-to-b from-white to-transparent">
-            <div className="flex justify-between mx-5 mt-2 md:pr-[26px] md:pl-[20px] text-gray-700 sm:mx-0 lg:pl-0 lg:justify-between lg:mx-6 xl:mx-0 xl:mr-12 xl:ml-0 xl:mt-5 xl:pl-12 xl:justify-between md:justify-between sm:justify-between">
+        <nav className="fixed top-0 left-0 z-10 w-full pt-4 bg-gradient-to-b from-white to-transparent">
+            <div className="flex justify-between mx-5 mt-2 md:pr-[26px] md:pl-[20px] text-gray-700 sm:mx-0 lg:pl-0 lg:justify-between lg:ml-5 xl:mx-0 xl:mr-12 xl:ml-0 xl:mt-3 xl:mb-3 xl:pl-10 xl:justify-between md:justify-between sm:justify-between">
                 <div className='lg:mr-14 xl:pl-[47px] xl:max-w-[9%] max-w-[12%] lg:max-w-[8%] md:max-w-[9%] sm:max-w-[14%] sm:pl-6 md:mr-6 md:pl-0'>
                     <Link href='/'>
                         <a>
@@ -42,7 +42,7 @@ const Navbar = () => {
                     </div>
                 </ul>
 
-                <button className="block py-3 rounded md:mx-0 sm:mr-8 md:ml-10 md:px-0 lg:hidden focus:outline-none group"> 
+                <button className="block py-3 rounded md:mx-0 sm:mr-8 md:px-0 lg:hidden focus:outline-none group"> 
                     <div className="h-1 mb-1 bg-gray-600 w-7"></div>
                     <div className="h-1 mb-1 bg-gray-600 w-7"></div>
                     <div className="h-1 bg-gray-600 w-7"></div>
