@@ -1,7 +1,7 @@
 const Footer = () => {
     return(
         <>
-        <footer className='bottom-0 w-full bg-black sm:w-full sm:pt-24 lg:w-full md:w-full xl:w-full md:mt-44'>
+        <footer className='bottom-0 sm:min-w-[320px] bg-black sm:pt-24 lg:w-full md:w-full xl:w-full md:mt-44'>
             <div id="container-footer">
                 <div className="mx-5 text-white pt-14 xl:flex sm:grid md:flex lg:pb-20 lg:flex lg:justify-start lg:justify-items-start md:pb-12 sm:pb-16 md:mr-0 xl:mx-64 md:justify-items-start xl:justify-items-start">
                     <div className='xl:mt-[84px] md:mr-28 sm:pr-28 xl:pr-24 pr-0 sm:mt-0 lg:ml-7 lg:mr-32 sm:ml-5 sm:mb-8 md:mt-[74px] lg:mt-12 md:mb-8'>

@@ -2,9 +2,8 @@ import Image from 'next/image';
 import iconBar from '../utils/FP.png';
 import Link from 'next/link';
 const Navbar = () => {
-    
     return(
-        <nav className="fixed top-0 left-0 z-10 w-full pt-4 bg-gradient-to-b from-white to-transparent">
+        <nav className="fixed top-0 left-0 z-10 pt-4 sm:w-full xl:w-full lg:w-full md:w-full bg-gradient-to-b from-white to-transparent">
             <div className="flex justify-between mx-5 mt-2 md:pr-[26px] md:pl-[20px] text-gray-700 sm:mx-0 lg:pl-0 lg:justify-between lg:ml-5 xl:mx-0 xl:mr-12 xl:ml-0 xl:mt-3 xl:mb-3 xl:pl-10 xl:justify-between md:justify-between sm:justify-between">
                 <div className='lg:mr-14 xl:pl-[47px] xl:max-w-[9%] max-w-[16%] lg:max-w-[8%] md:max-w-[9%] sm:max-w-[14%] sm:pl-6 md:mr-6 md:pl-0'>
                     <Link href='/'>
@@ -34,7 +33,7 @@ const Navbar = () => {
                     <div className='inline-block border-black border-2 hover:cursor-pointer hover:text-black hover:bg-neutral-100 px-8 py-3 ml-5 text-lg text-white transition duration-200 ease-in bg-black xl:px-8 xl:items-center xl:justify-center xl:flex xl:ml-8 lg:ml-5 lg:mr-3 h-14 xl:h-[52px]'>
                         <Link href='/contact'>
                             <a>
-                                <div className="">  
+                                <div>  
                                     Hablemos
                                 </div>
                             </a>
