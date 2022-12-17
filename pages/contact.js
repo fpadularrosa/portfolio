@@ -18,19 +18,15 @@ const Contact = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const form = document.getElementById("form-contact");
-        const formValues = new FormData(e.target);
         setSubmitted(true)
-        const data = await fetch(form.action, {
-            method: form.method,
-            body: formValues,
+        console.log(values)
+        await fetch('http://localhost:3000/api/mail', {
+            method: 'POST',
             headers: {
-                'Accept': 'application/json'
-            }
-        })
-        if(data.ok){
-            form.reset();
-        }
+                'Content-Type': 'application/json'
+              },
+            body: JSON.stringify({email: values.email, text: values.project})
+        });
     }
 
     return (
@@ -51,21 +47,21 @@ const Contact = () => {
                         <a className="leading-[3rem] border-black border-b-[1px] hover:text-neutral-500 hover:border-neutral-500" target='_blank' rel="noreferrer" href="https://www.zeitverschiebung.net/en/abbr/14">Qué hora es acá? </a>
                     </p>
                 </div>
-                <form className="grid w-full mt-7 xl:w-[40%] sm:w-[93%] md:mt-7 lg:w-[60%]" onSubmit={e => handleSubmit(e)} action="https://formspree.io/f/xayvprej" autoComplete="nope" id='form-contact' method="POST">
+                <form className="grid w-full mt-7 xl:w-[40%] sm:w-[93%] md:mt-7 lg:w-[60%]" onSubmit={e => handleSubmit(e)} autoComplete="nope" id='form-contact'>
                     <Input className="w-full px-4 py-5 text-base font-semibold border-b-2 border-gray-400 focus:outline-none focus:border-black"
                     value={values.name}
-                    onChange={handleChange} 
+                    onChange={e => handleChange(e)} 
                     name='name' 
                     placeholder='Tu nombre'/>
                     <Input className="w-full px-4 py-5 text-base font-semibold border-b-2 border-gray-400 focus:outline-none focus:border-black"
                     value={values.email} 
-                    onChange={handleChange} 
+                    onChange={e => handleChange(e)} 
                     name='email' 
                     placeholder='Tu email'/>
                     <TextArea
                     className="w-full px-4 py-5 text-base font-semibold border-b-2 border-gray-400 focus:outline-none focus:border-black"
                     rows='5'
-                    onChange={handleChange}
+                    onChange={e => handleChange(e)}
                     name='project'
                     placeholder="Háblame del proyecto" 
                     value={values.project}
